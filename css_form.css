@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0 20px; /* Adjusted padding for better responsiveness */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+div {
+    padding: 10px;
+    background-color: rgb(164, 206, 147);
+    color: white;
+    line-height: 1.5; /* Adjusted line-height for better readability */
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+form {
+    background-color: rgb(238, 239, 235);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 20px; /* Increased padding for better spacing */
+    font-size: large;
+    max-width: 600px; /* Max-width to control form width on larger screens */
+    margin: 20px auto; /* Centering the form */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px); /* Adjusted width for better responsiveness */
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px; /* Added padding for better spacing */
+    margin-bottom: 10px; /* Added margin for spacing between inputs */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: rgb(164, 206, 147);
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 20px); /* Adjusted width for better responsiveness */
+    padding: 10px; /* Added padding for better spacing */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    margin-bottom: 10px; /* Added margin for spacing between buttons */
+}
+
+input[type="reset"] {
+    background-color: red;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(0, 176, 76);
+}
+
+input[type="reset"]:hover {
+    background-color: rgb(191, 0, 0);
+}
