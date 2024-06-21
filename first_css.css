@@ -1,0 +1,24 @@
+/* body{
+    text-align: center;
+    color: aqua;
+    
+} */
+h2{
+    color:black;
+}
+*{
+    color: purple;
+    text-align: center;
+}
+#title{
+    text-align: center;
+    color: red;
+}
+.king{
+    color: aqua;
+    align-self: auto;
+}
+div,h3,h4{
+    color: black;
+    align-items: center;
+}
