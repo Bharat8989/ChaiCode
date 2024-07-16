@@ -42,3 +42,5 @@ const No=prompt("enter the No.")
 
 const result= (No>0)? "positive":(No<0)?"negative":"zero";
 console.log("the numbers is:"+result)
+
+
