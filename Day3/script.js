@@ -163,3 +163,27 @@ if (sum === rev) {
     console.log(sum + " is not a palindrome number");
 }
 
+//armstrong number 
+
+let number1=153;
+let temp1=number1;
+let sum1=0;
+let a=0;
+while(temp1 !=0)
+{
+    temp1=Math.floor(temp1 / 10)
+    a++;
+}
+temp1=number1;
+while(temp1 != 0)
+{
+    let a1=temp1%10;
+    sum1=sum1+Math.pow(a1, a)//power of the total number
+    temp1=Math.floor(temp1/10)
+
+}
+if(sum1 == number1){
+    console.log(number1+ " is armstrong no.")
+}else{
+    console.log(number1 + " is not armstrong no.")
+}
