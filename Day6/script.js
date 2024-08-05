@@ -9,3 +9,7 @@
 
  ]
  console.log(studentName)
+
+ console.log("print the two number")
+
+ 
