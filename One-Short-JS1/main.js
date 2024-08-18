@@ -111,3 +111,18 @@ console.log("var variable is used")
   // console.log(key)
   console.log(key,obj[key])
  }
+
+ setTimeout(function(){
+  console.log("2 second badd chalo")
+ },2000);
+//first class functions 
+//var me functions ko save karsakte hai
+ var y=function(){
+
+ }
+ function abcdef(a){
+        a(); 
+ }
+ abcdef(function(){
+  console.log("hello world !!!!!!!!!!!!!!!")
+ })
