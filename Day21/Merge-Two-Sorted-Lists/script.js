@@ -34,6 +34,6 @@ let list1 = [1, 3, 5, 7];
 let list2 = [2, 4, 6, 8];
 let mergedList = mergeSortedLists(list1, list2);
 console.log(mergedList); // Output: [1, 2, 3, 4, 5, 6, 7, 8]
-
+console.log(mergeSortedLists)
 
 //valid parentheses
