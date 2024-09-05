@@ -29,3 +29,9 @@ const object={
 console.log(typeof(object))
 var arr=[2,34,3,2,34]
 console.log(typeof(arr))
+
+
+console.log(Math.random())
+
+const randomNumber = Math.floor(Math.random()*6 )+1 ;
+console.log(randomNumber);
